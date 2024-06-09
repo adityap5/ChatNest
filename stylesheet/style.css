@@ -4,33 +4,49 @@
     box-sizing: border-box;
 }
 body,html{
-    height: 100%;
-    width: 100%;
+    
     background-color: #292F3F;
 }
 .logo{
-    display: block;
-    margin: auto;
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
+}
+.nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin : 20px 0;
+}
+.heading{
+    color: #fff;
+    font-family: Helvetica;
+    font-stretch:expanded;
+}
+.header{
+    position:sticky;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin :2px;
 }
 .container{
-    max-width: 955px;
+    max-width: 305px;
     border: 2px solid black;
     border-radius: 30px;
     margin: auto;
-    height: 60vh;
+    height: 630px;
     overflow-y: auto;
     margin-bottom:10px;
-    padding: 30px;
+    padding:10px 10px;
+    
 }
 .message{
-   
-    width: 24%;
-    padding:10px;
-    margin: 17px 12px;
+    width: 190px;
+    height:50px;
+    padding:10px 19px;
+    margin: 8px 2px;
     border:2px solid black;
-    border-radius: 10px;
+    border-radius: 20px;
     color: #FFFFFF;
    
 }
@@ -44,28 +60,47 @@ body,html{
     float: left;
     clear: both;
 }
+.send{
+    position:fixed;
+}
 #send-container{
-    display: block;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin:auto;
     text-align: center;
-    max-width: 985px;
     width: 100%;
+    top: 540px;
+    gap: 10px;
 }
 #messageInp{
     width: 92%;
-    border:2px solid black;
+    border: 2px solid black;
     border-radius: 6px;
     height: 34px;
     background-color: #272A35;
-    padding:10px;
-    color:#FFFFFF;
+    padding: 10px;
+    color: #FFFFFF;
     font-size: 15px;
+   
 }
 .btn{
     cursor: pointer;
     border:2px solid black;
     border-radius: 6px;
-    padding: 12px;
-    font-weight: 500;
-    font-size:12px
+    height: 34px;
+    padding: 1px 10px;
+    font-weight: 600;
+    background-color: #00AC83;
 }
+.btn img{
+    display: block;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+}
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  

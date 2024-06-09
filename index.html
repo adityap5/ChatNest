@@ -9,19 +9,24 @@
     <link rel="stylesheet" href="/stylesheet/style.css">
 </head>
 <body>
-    <nav>
-        <img class="logo" src="Logo.png"  alt="logo">
+    <nav class="nav">
+        <h1 class="heading">ChatNest Chat App</h1>
+      
     </nav>
     <div class="container">
+        <div class="header">
+            <img class="logo" src="Logo.png"  alt="logo"><p>ChatNest</p>
+        </div>
         <div class="message right">Jim: hey👋</div>
         <div class="message left">Jam: hii👋</div>
+        <div class="send">
+            <form action="#" id="send-container">
+                <input type="text" placeholder="Write" id="messageInp">
+                <button class="btn"><img src="icons8-send-60.png" alt=""></button>
+            </form>
+        </div>
     </div>
-<div class="send">
-    <form action="#" id="send-container">
-        <input type="text" placeholder="Write" id="messageInp">
-        <button class="btn">Send</button>
-    </form>
-</div>
+
 
 </body>
 </html>
